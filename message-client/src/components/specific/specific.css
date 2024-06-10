@@ -1,0 +1,19 @@
+.dialog-input{
+    gap: 5px;
+    border: 1px solid #1f1e1e;
+    padding: 5px;
+    width: 300px;
+}
+.dialog-input input{
+    border: none;
+    flex-grow: 1;
+    background-color:#eff9e8;
+}
+
+.dialog-user-list{
+    max-height: 50vh;
+    width: 100%;
+    overflow-y: scroll;
+    padding: 0 10px;
+    margin-top: 5px;
+}

@@ -1,0 +1,57 @@
+.app{
+  height: 100vh;
+  width: 100vw;
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow: hidden;
+  background-color: #a6c48a;
+}
+
+.fullScreen{
+  height: calc( 100vh - 56px);
+  width: 100vw;
+  max-height: calc( 100vh - 56px);
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+*:focus{
+  outline: none;
+}
+.flex-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.custom-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  background-color: #66a22e;
+  cursor: pointer;
+  border-radius: 20px;
+  color: white;
+}
+.error-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #e74615;
+  cursor: pointer;
+  color: white;
+}
+.custom-button:hover{
+  background-color: #447515;
+}
+.error-button:hover{
+  background-color: #b8350e;
+}
